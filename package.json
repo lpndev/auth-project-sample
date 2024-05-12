@@ -7,10 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "lint-staged": {
-      "**/*": "prettier --write --ignore-unknown"
-    },
     "prepare": "husky"
+  },
+  "lint-staged": {
+    "**/*": "prettier . --write --ignore-unknown"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.3.4",
