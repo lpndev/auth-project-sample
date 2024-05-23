@@ -8,7 +8,7 @@ export default async function UserAvatar() {
   return (
     <div>
       <img
-        src={session.user.image}
+        src={session.user.image ?? '/images/user-placeholder.png'}
         alt='User Avatar'
         className='rounded-lg'
         width={48}
