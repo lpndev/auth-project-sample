@@ -13,7 +13,7 @@ export function SignIn() {
     >
       <Button
         variant='default'
-        className='gap-2 bg-green-600 text-foreground hover:bg-green-600/90'
+        className='gap-2 bg-green-600 text-zinc-50 hover:bg-green-600/90'
         type='submit'
       >
         Sign In
